@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 15px;
+    font-size: 15px;
+    padding: 10px;
+    background-image: url("images/Revision_Freevector_School-Stationary_Background_Mf0421-01.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 800px;
+    background-attachment: fixed;
+    
+}
+.back{
+    padding: 10px 10px 10px 10px;
+    border: 4px solid black;
+    border-radius: 20px;
+    background-image: url("cristina-gottardi-CSpjU6hYo_0-unsplash.jpg");
+}
+
+input[type="text"],input[type="email"],input[type="number"],input[type="password"],input[type="date"],
+select,textarea{
+    width:100%;
+    border: 2px solid black;
+    cursor: text;
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+
+}
+input[type="submit"]{
+    text-align: center;
+    background-color: #19ae4b;
+    color: antiquewhite;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+
+}
+input[type="submit"]:hover{
+    background-color: black;
+}
+
+

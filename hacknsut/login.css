@@ -1,0 +1,14 @@
+body{
+    padding:200px 200px;
+    text-align: center;
+    border: 4px solid rgb(156, 185, 224);
+    box-sizing: border-box;
+}
+*{
+    box-sizing: border-box;
+}
+div a{
+    color: black;
+    border: 1px solid black;
+    background-color: rgb(228, 236, 239);
+}
